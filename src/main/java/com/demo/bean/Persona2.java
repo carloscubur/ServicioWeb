@@ -1,16 +1,18 @@
+package com.demo.bean;
+
 public class Persona2 {
 
     private int id;
     private String nombre;
-    private int edad;
+    private int apodo;
 
-    public Persona() {
+    public Persona2() {
     }
 
-    public Persona(int id, String nombre, int edad) {
+    public Persona2(int id, String nombre, int apodo) {
         this.id = id;
         this.nombre = nombre;
-        this.edad = edad;
+        this.apodo = apodo;
     }
 
     public int getId() {
@@ -29,11 +31,11 @@ public class Persona2 {
         this.nombre = nombre;
     }
 
-    public int getEdad() {
-        return edad;
+    public int getApodo() {
+        return apodo;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setApodo(int apodo) {
+        this.apodo = apodo;
     }
 }
