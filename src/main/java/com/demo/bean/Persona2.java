@@ -6,15 +6,17 @@ public class Persona2 {
     private String nombre;
     private String apellido;
     private int apodo;
+    private int numIgss;
 
     public Persona2() {
     }
 
-    public Persona2(int id, String nombre, String apellido, int apodo) {
+    public Persona2(int id, String nombre, String apellido, int apodo, int numIgss) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.apodo = apodo;
+        this.numIgss = numIgss;
     }
 
     public int getId() {
@@ -33,6 +35,14 @@ public class Persona2 {
         this.nombre = nombre;
     }
 
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
     public int getApodo() {
         return apodo;
     }
@@ -41,11 +51,11 @@ public class Persona2 {
         this.apodo = apodo;
     }
 
-    public String getApellido() {
-        return apellido;
+    public int getNumIgss() {
+        return numIgss;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setNumIgss(int numIgss) {
+        this.numIgss = numIgss;
     }
 }
